@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Italiana&family=Open+Sans&family=Oswald:wght@300&display=swap');
+/* Hide the scroll bars */
+body {
+  overflow-y: hidden;
+}
+
+.slides {
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  display: flex;
+  overflow-x: scroll;
+}
+
+section {
+  height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  justify-content: flex-start;
+  background-repeat: no-repeat;
+  background-size: cover;
+  scroll-snap-align: center;
+
+}
+
+
+
+section ul, section ol {
+	list-style-type: none;
+	text-align: left;
+	padding: 2;
+	margin: 2;
+}
+
+section h1 {font-family: 'Italiana', serif;; color: azure}
+
+* {font-:family 'Open Sans', sans-serif; color: whitesmoke}
+section h2 {font-family: 'Oswald', sans-serif; color: wheat }
+
+section h1 {font-size: 2em; font-weight: 250}
+section h2 {font-size: 3em; font-weight: 200}
+section h3 {font-size: 2em; font-weight: 150}
+
+section li, section p {
+	font-:family 'Open Sans', sans-serif;
+	list-style-type: none;
+}
+
+.accent {
+font-family: 'Italiana', serif;
+		font-size: 2em; font-weight: 300;
+}
+
+a {
+	text-decoration: none;
+	text: Domani;
+}
+a:link, a:visited, a:hover, a:active { color: #38786a }
+a:hover { text-decoration: none }
+}
+
+em {
+  font-weight: bold;
+  font-style: normal;
+}
+
+footer p {
+	color: #fff;
+  margin: 0;
+}
+
+
+/*
+.section-1 {
+  background-image: url('https://placeimg.com/1000/500/any')
+}
+*/
+
+.section-1 {
+	background-color: #003554;
+}
+.section-2 {
+	background-color: #6F5E53;
+}
+
+.section-3 {
+	background-color: #685369;
+}
+
+.section-4 {
+	background-color: #CA895F;
+}
